@@ -1,0 +1,158 @@
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+section {
+    padding: 1em;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #000;  /*Sets the text hover color on navbar*/
+}
+
+
+  .navbar-default {
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: rgba(0,0,0,0); /*Change rollover cell color here*/
+  }
+
+
+  .navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+    }
+
+.page-header {
+    font-family: 'Abril Fatface', cursive;
+    border-bottom: none;
+    color: rgb(235, 235, 235);
+}
+
+.page-header h1 {
+    font-size: 8em;
+    margin-bottom: 30px;
+}
+
+.page-header small {
+    color: rgb(235, 235, 235);
+    
+}
+
+#cta {
+    color: rgb(235, 235, 235);
+    display: inline;
+    border: white 5px solid;
+    padding: 5px 10px;
+    font-size: 1.5em;
+}
+
+
+#welcome {
+    height: 75vh;
+    background: url("kepek/bigGreeceOrangeCutversion_darker_blured_text.png") right no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    #welcome {
+        height: 85vh;
+        background: url("kepek/bigGreeceOrangeCutversion_darker_blured_text_mobile.png") right no-repeat;
+        background-size: cover;
+    }
+    
+    .page-header h1 {
+        font-size: 4em;
+    }
+    
+    .relative {
+        position: relative;
+    }
+    
+    #cta {
+        display: inline-block;
+        border: white 5px solid;
+        padding: 5px 10px;
+        font-size: 1em;
+        margin-top: 70px;
+    }
+    
+}
+
+@media (max-width: 325px) {
+    
+    .page-header h1 {
+        font-size: 3em;
+    }
+    
+    #cta {
+        margin-top: 20;
+    }
+    
+    
+}
+
+blockquote {
+    border:none;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p {
+    font-size:16px;
+    font-style: italic;
+}
+
+blockquote p:before {
+    content: open-quote;
+    font-weight: bold;
+    font-size:2em;
+    color:#db841f;
+} 
+blockquote p:after {
+    content: close-quote;
+    font-weight: bold;
+    font-size:2em;
+    color:#db841f;
+}
+
+
+.skillTomb {
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+}
+
+.skillTomb p {
+    margin-bottom: 0;
+}
+
+.skillEgy {
+    color: #e74c3c;
+    margin-left: 10px;
+}
+
+.skillKetto {    
+    color: #e74c3c;
+    margin-left: 25px;
+}
+
+.skillHarom {
+    color: #f39c12;
+    margin-left: -10px;
+}
+
+.skillNegy {
+    color: #e74c3c;
+    margin-left: 40px;
+}
+
+.skillOt {
+    color: #f39c12;
+    margin-left: -50px;
+}

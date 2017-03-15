@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,13 @@
 
         <!-- Bootstrap -->
         <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-
+        
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Open+Sans" rel="stylesheet">
+        
+        <!-- my custom css -->
+        <link href="my.css" rel="stylesheet">
+            
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -17,11 +23,96 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body style="background-color: black;">
+    <body>
         
-        <div class="container-fluid">
-            <img src="kepek/keszitesalatt.gif" class="img-responsive" style="margin: auto; widhth: 100%;" alt="A weboldal még nincs kész de gőzerőlvel dolgozunk rajta">
-        </div>
+        <header class="container-fluid" id="welcome">
+             <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">#</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">                
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-header text-center">
+                    <h1>Welcome<br><small>glad you are here</small></h1>
+                    </div>
+                </div>
+            </div> <!-- row end -->
+            <div class="row text-center">
+                <p id="cta">Click to know more about me</p>
+            </div>
+        </header><!-- container-fluid -->
+        
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="img-responsive img-rounded" src="kepek/3d_profile_atlatszo.png" alt="picture of me">
+                    </div>
+                    <div class="col-sm-8">
+                        <h3>Hi, my name is Ágoston Tóth</h3>
+                        <p>I have always been a creative individual. My interest are computer and web related. My goal is to have one of my passion as a job. I know that takes hard dedication and learning but It's worth it for me.</p>
+                        <blockquote>
+                          <p>Find something you love to do and you will never have to work a day in your life.</p>
+                        </blockquote>
+                        <p>I am interested in IT, programming and security. I am at the finish line of a sys admin course and learning web design besides school.<br>
+                        Constantly learning and developing as a person is important for me.<br> As Elliot Hulse said.</p>
+                        <blockquote>
+                            <p>Become the strongest version of yourself.</p>
+                        </blockquote>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </section>
+        
+        <section id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h3>Some of my skills</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 text-center skillTomb">
+                        <p>English</p>
+                        <p>Driving license</p>
+                        <p>Communication</p>
+                        <p>Team Player</p>
+                        <p>Independent</p>
+                        <p></p>
+                    </div>
+                    <div class="col-sm-4 text-center skillTomb">
+                        <p class="skillEgy">HTML</p>
+                        <p class="skillKetto">CSS</p>
+                        <p class="skillHarom">Bootstrap</p>
+                        <p class="skillNegy">JavaScript</p>
+                        <p class="skillOt">jQuery</p>
+                        <p class="skillEgy">Photoshop</p>
+                    </div>
+                    <div class="col-sm-4 text-center skillTomb">
+                        <p>Windows Server</p>
+                        <p>Linux</p>
+                        <p>Networks</p>
+                        <p>Cisco IOS</p>
+                        <p>Office</p>
+                    </div>
+                </div><!-- row end -->
+            </div><!-- container end -->
+        </section>
         
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
