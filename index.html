@@ -13,6 +13,9 @@
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Open+Sans" rel="stylesheet">
         
+        <!-- font awesome CDN used for social media icons -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
         <!-- my custom css -->
         <link href="my.css" rel="stylesheet">
             
@@ -65,7 +68,7 @@
                     </div>
                     <div class="col-sm-8">
                         <h3>Hi, my name is Ágoston Tóth</h3>
-                        <p>I have always been a creative individual. My interest are computer and web related. My goal is to have one of my passion as a job. I know that takes hard dedication and learning but It's worth it for me.</p>
+                        <p>I have always been a creative individual. My interest are computer and web related. My goal is to have my passion as a job. I know that takes hard dedication and learning but it's defenetly worth it.</p>
                         <blockquote>
                           <p>Find something you love to do and you will never have to work a day in your life.</p>
                         </blockquote>
@@ -88,36 +91,96 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-4 text-center skillTomb">
-                        <p>English</p>
-                        <p>Driving license</p>
-                        <p>Communication</p>
-                        <p>Team Player</p>
-                        <p>Independent</p>
-                        <p></p>
+                        <p><span class="glyphicon glyphicon-user color-lightblack"></span></p>
+                        <p style="color: #e74d3c;">English</p>                        
+                        <p style="color: #f39c12; margin-left: 40px;">Driving license</p>
+                        <p style="color: #e74c3c; margin-left: -20px;">Communication</p>
+                        <p style="color: #f39c12; margin-left: -25px;">Team Player</p>
+                        <p style="color: #f39c12; margin-left: -5px;">Independent</p>
+                    </div>
+                    <div class="col-sm-4 text-center skillTomb ">
+                        <p><span id="brackets">{ }</span></p>
+                        <p style="color: #e74c3c; margin-left: 10px;">HTML</p>
+                        <p style="color: #e74c3c; margin-left: 25px;">CSS</p>
+                        <p style="color: #f39c12; margin-left: -10px;">Bootstrap</p>
+                        <p style="color: #e74c3c; margin-left: 40px;">JavaScript</p>
+                        <p style="color: #f39c12; margin-left: -50px;">jQuery</p>
+                        <p style="color: #e74c3c; margin-left: 10px;">Photoshop</p>
                     </div>
                     <div class="col-sm-4 text-center skillTomb">
-                        <p class="skillEgy">HTML</p>
-                        <p class="skillKetto">CSS</p>
-                        <p class="skillHarom">Bootstrap</p>
-                        <p class="skillNegy">JavaScript</p>
-                        <p class="skillOt">jQuery</p>
-                        <p class="skillEgy">Photoshop</p>
-                    </div>
-                    <div class="col-sm-4 text-center skillTomb">
-                        <p>Windows Server</p>
-                        <p>Linux</p>
-                        <p>Networks</p>
-                        <p>Cisco IOS</p>
-                        <p>Office</p>
+                        <p><span class="glyphicon glyphicon-console color-lightblack"></span></p>
+                        <p style="color: #f39c12; margin-left: 35px;">Windows Server</p>
+                        <p style="color: #e74c3c; margin-left: -25px;">Linux</p>
+                        <p style="color: #f39c12; margin-left: 45px;">Networks</p>
+                        <p style="color: #e74c3c; margin-left: -10px">Cisco IOS</p>
+                        <p style="color: #f39c12; margin-left: 15px;">Office</p>
                     </div>
                 </div><!-- row end -->
             </div><!-- container end -->
         </section>
         
+        <section id="social">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-">
+                        <div class="col-sm-4">
+                            <a href="https://github.com/DepictYourself" target="_blank"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://www.linkedin.com/in/%C3%A1goston-t%C3%B3th-68899012b/" target="_blank"><i class="fa fa-linkedin fa-5x" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://www.freecodecamp.com/depictyourself" target="_blank"><i class="fa fa-free-code-camp fa-5x" aria-hidden="true"></i></a>
+                        </div>                                                                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div class="container form-container">
+                <div class="row text-center">
+                    <h3>Contact me</h3>
+                </div>
+                <form action="https://formspree.io/totha014@gmail.com" method="POST">
+                    <div class="row">                                                                
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="formName">Your Name</label>
+                                <input type="text" id="formName" name="name" class="form-control" placeholder="Your Name">
+                            </div>          
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="formEmail">Your Email</label>
+                                <input type="email" id="formEmail" name="_replyto" class="form-control" placeholder="email@address.com">
+                            </div>
+                        </div>
+                    </div> <!-- row end -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <label for="formMessage">Your Message</label>
+                            <textarea id="formMessage" name="message" class="form-control" rows="5" placeholder="Feel free to ask me anything without any commitment."></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>    <!-- container -->        
+        </section>
+        
+        <footer>
+            
+        </footer>        
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <!-- my scripts -->
+        <script src="myscripts.js"></script>
   </body>
 </html>

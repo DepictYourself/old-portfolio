@@ -5,11 +5,19 @@ body {
 }
 
 section {
-    padding: 1em;
+    padding: 2em;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(0,0,0,0);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: rgba(0,0,0,0);
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-color: #000;  /*Sets the text hover color on navbar*/
+    color: #000;  /*Sets the text hover color on navbar*/
 }
 
 
@@ -56,46 +64,8 @@ color: #000;  /*Sets the text hover color on navbar*/
 
 #welcome {
     height: 75vh;
-    background: url("kepek/bigGreeceOrangeCutversion_darker_blured_text.png") right no-repeat;
+    background: url("kepek/bigGreeceOrangeCutversion_darker_blured_textv3.png") right no-repeat;
     background-size: cover;
-}
-
-@media (max-width: 768px) {
-    #welcome {
-        height: 85vh;
-        background: url("kepek/bigGreeceOrangeCutversion_darker_blured_text_mobile.png") right no-repeat;
-        background-size: cover;
-    }
-    
-    .page-header h1 {
-        font-size: 4em;
-    }
-    
-    .relative {
-        position: relative;
-    }
-    
-    #cta {
-        display: inline-block;
-        border: white 5px solid;
-        padding: 5px 10px;
-        font-size: 1em;
-        margin-top: 70px;
-    }
-    
-}
-
-@media (max-width: 325px) {
-    
-    .page-header h1 {
-        font-size: 3em;
-    }
-    
-    #cta {
-        margin-top: 20;
-    }
-    
-    
 }
 
 blockquote {
@@ -132,27 +102,78 @@ blockquote p:after {
     margin-bottom: 0;
 }
 
-.skillEgy {
-    color: #e74c3c;
-    margin-left: 10px;
+.display-none {
+    display: none;
 }
 
-.skillKetto {    
-    color: #e74c3c;
-    margin-left: 25px;
+.color-lightblack {
+    color: #333;
 }
 
-.skillHarom {
-    color: #f39c12;
-    margin-left: -10px;
+#brackets {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
-.skillNegy {
-    color: #e74c3c;
-    margin-left: 40px;
+#social  {
+    background-color: #aaa;
+    padding: 70px;
 }
 
-.skillOt {
-    color: #f39c12;
-    margin-left: -50px;
+#social a {
+    color: #333;
+}
+
+#social a:hover {
+    color: rgb(208, 208, 208);
+}
+
+.form-container {
+    max-width: 800px;
+}
+
+@media (max-width: 768px) {
+    #welcome {
+        height: 85vh;
+        background: url("kepek/bigGreeceOrangeCutversion_darker_blured_text_mobilev2.png") right no-repeat;
+        background-size: cover;
+    }
+    
+    .page-header h1 {
+        font-size: 4em;
+    }
+    
+    .relative {
+        position: relative;
+    }
+    
+    #cta {
+        display: inline-block;
+        border: white 5px solid;
+        padding: 5px 10px;
+        font-size: 1em;
+        margin-top: 70px;
+    }
+    
+    #social {
+        padding: 20px;
+    }
+    
+    #social i {
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media (max-width: 325px) {
+    
+    .page-header h1 {
+        font-size: 3em;
+    }
+    
+    #cta {
+        margin-top: 20;
+    }
+    
 }

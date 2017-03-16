@@ -1,7 +1,0 @@
-about me section
-
-<Kép rólam>
-
-Ambíciózus pályakezdõ
-
-Hi, my name is Ágoston Tóth. I am currently at the end of my sys admin course. I liked to make things 
