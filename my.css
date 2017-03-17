@@ -57,17 +57,35 @@ section h3 {
     
 }
 
+.slide-section:link {
+    text-decoration: none;
+
+}
+
+.slide-section:hover {
+    text-decoration: none;
+}
+
+.slide-section:visited {
+    text-decoration: none;
+}
+
+.slide-section:active {
+    text-decoration: none;
+}
+
 #cta {
     color: rgb(235, 235, 235);
     display: inline;
     border: white 5px solid;
     padding: 5px 10px;
     font-size: 1.5em;
+    text-decoration: none;
 }
 
 
 #welcome {
-    height: 75vh;
+    height: 74vh;
     background: url("kepek/bigGreeceOrangeCutversion_darker_blured_textv3.png") right no-repeat;
     background-size: cover;
 }
