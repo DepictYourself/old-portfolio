@@ -177,6 +177,10 @@ hr {
     width: 60%;
 }
 
+button {
+    margin-top: 15px;
+}
+
 @media (max-width: 768px) {
     #welcome {
         height: 85vh;
